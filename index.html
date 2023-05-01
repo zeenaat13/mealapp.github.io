@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Recipe Book</title>
+</head>
+<body>
+    <section class="showcase" id="showcase">
+    <header> 
+        <a href="index.html"><img src="./images/images.png" alt=""></a>
+         <p>RECIPE BOOK</p>
+        <div class="fav-container" id="fav-container">
+            <button id="fav-btn" >
+                <input type="checkbox" name="" id="open-fav">
+                <label class='heart-icon' for="open-fav">
+                 <i class="fa-solid fa-heart fa-2xl"></i>
+                 </label>
+            </button>
+           </div>
+    </header>
+
+    <video src="images\mixkit-peppers-and-red-powder-falling-to-the-table-28393-medium.mp4" muted loop autoplay></video>
+   
+
+    <div class="overlay" id="overlay"></div>
+    <div class="text" id="text">
+      <h2>Don't know what to cook for the meal? </h2> 
+      <h3>Explore The recipes that can be cooked from ingredients at home.</h3>
+      <p>"A recipe has no soul. you, as the cook,must bring the soul to the recipe." - THOMAS KELLER</p>
+      <div class="container" id="container">
+         <input type="search" id="input-search" placeholder="Search ...">
+         SEARCH RESULTS
+         <div class="recipes" >
+           
+         </div>
+      </div>    
+    </div>
+   
+    <ul class="social">
+      <li><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+      <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+      <li><a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+    </ul>
+
+    </section>
+   
+    <script src="script.js"></script>
+</body>
+</html>
